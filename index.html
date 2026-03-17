@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Undangan 12</title>
+    <title>Undangan 13</title>
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -21,6 +21,12 @@
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Pinyon+Script&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/loader.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
@@ -58,7 +64,7 @@
       </div>
       <div class="text-secondary text-center">Shafa Dimas Saputra</div>
       <div class="qr-image mt-1">
-        <img src="assets/img/qr.png" alt="qr-image" class="img-fluid" />
+        <img src="assets/img/qr.png" alt="qr-image" class="img-fluid" fetchpriority="high" />
       </div>
     </div>
 
@@ -127,21 +133,23 @@
 
         <section id="wedding-of" class="custom-container">
           <div class="fl-wo-1">
-            <img src="assets/img/lamp.webp" alt="" class="fl-goyang-top" />
+            <img src="assets/img/lamp.webp" alt="" class="fl-goyang-top" loading="lazy" />
           </div>
           <div class="bg-ornament">
-            <img src="assets/img/top.webp" class="overlay-top" alt="" />
+            <img src="assets/img/top.webp" class="overlay-top" alt="" loading="lazy" />
             <img
               src="assets/img/pinggiran.webp"
               class="overlay-middle"
               alt=""
+              loading="lazy"
             />
-            <img src="assets/img/bot.webp" class="overlay-bottom" alt="" />
-            <img src="assets/img/break1.webp" alt="" />
+            <img src="assets/img/bot.webp" class="overlay-bottom" alt="" loading="lazy" />
+            <img src="assets/img/break1.webp" alt="" loading="lazy" />
           </div>
-          <div class="wedding-of-container" data-aos-duration="1000">
+          <div class="wedding-of-container" data-aos="fade-up" data-aos-duration="1000">
             <h1
               class="font-heading-2 mt-3"
+              data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="200"
             >
@@ -150,10 +158,11 @@
 
             <div
               class="couple man mt-3"
+              data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="300"
             >
-              <img src="assets/img/man.webp" class="wedding-of-frame" alt="" />
+              <img src="assets/img/man.webp" class="wedding-of-frame" alt="" loading="lazy" />
               <div class="couple-details mt-3">
                 <h1 class="font-heading-latin-3">Fulan</h1>
                 <p class="text-body-1">Fullname of Mr. Fulan</p>
@@ -170,10 +179,11 @@
 
             <div
               class="couple girl mt-5"
+              data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="400"
             >
-              <img src="assets/img/girl.webp" class="wedding-of-frame" alt="" />
+              <img src="assets/img/girl.webp" class="wedding-of-frame" alt="" loading="lazy" />
               <div class="couple-details mt-3">
                 <h1 class="font-heading-latin-3">Fulanah</h1>
                 <p class="text-body-1">Fullname of Mr. Fulanah</p>
@@ -194,29 +204,38 @@
               src="assets/img/countdown-top.webp"
               class="overlay-top"
               alt=""
+              loading="lazy"
             />
             <img
               src="assets/img/countdown-mid.webp"
               class="overlay-middle"
               alt=""
+              loading="lazy"
             />
             <img
               src="assets/img/countdown-bot.webp"
               class="overlay-bottom"
               alt=""
+              loading="lazy"
             />
           </div>
 
           <div class="fl-cd-1">
-            <img src="assets/img/countdown-in-top.webp" alt="" />
+            <img src="assets/img/countdown-in-top.webp" alt="" loading="lazy" />
           </div>
           <div class="fl-cd-2">
-            <img src="assets/img/countdown-in-bot.webp" alt="" />
+            <img src="assets/img/countdown-in-bot.webp" alt="" loading="lazy" />
           </div>
-          <div class="countdown-container" data-aos-duration="1000">
-            <img src="assets/img/countdown-in-mid.webp" alt="" class="cd-in-mid" />
+          <div class="countdown-container" data-aos="fade-up" data-aos-duration="1000">
+            <img
+              src="assets/img/countdown-in-mid.webp"
+              alt=""
+              class="cd-in-mid"
+              loading="lazy"
+            />
             <h1
               class="font-heading-2"
+              data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="200"
             >
@@ -224,6 +243,7 @@
             </h1>
             <div
               class="item-container mt-2"
+              data-aos="fade-up"
               data-aos-duration="800"
               data-aos-delay="300"
             >
@@ -247,6 +267,7 @@
 
             <button
               class="btn btn-invites mt-4"
+              data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="400"
             >
@@ -260,22 +281,20 @@
 
         <section id="wedding-day" class="custom-container">
           <div class="bg-ornament">
-            <img
-              src="assets/img/acara-top.webp"
-              class="overlay-top"
-              alt=""
-            />
+            <img src="assets/img/acara-top.webp" class="overlay-top" alt="" loading="lazy" />
             <img
               src="assets/img/acara-mid.webp"
               class="overlay-middle"
               alt=""
+              loading="lazy"
             />
             <img
               src="assets/img/acara-bot.webp"
               class="overlay-bottom"
               alt=""
+              loading="lazy"
             />
-             <img src="assets/img/break1.webp" alt="" />
+            <img src="assets/img/break1.webp" alt="" loading="lazy" />
           </div>
           <div class="wd-container" data-aos="fade-up" data-aos-duration="1000">
             <div class="custom-container">
@@ -294,7 +313,7 @@
                 <i class="bi bi-geo-alt"></i> View Maps
               </button>
             </div>
-            <br>
+            <br />
             <div class="custom-container">
               <h1 class="font-heading-2">Akad</h1>
               <div class="text-body-5">Saturday, 20 May 2022</div>
@@ -311,9 +330,7 @@
                 <i class="bi bi-geo-alt"></i> View Maps
               </button>
             </div>
-
           </div>
-
         </section>
 
         <section
@@ -461,6 +478,7 @@
                 "
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen
+                loading="lazy"
               >
               </iframe>
             </div>
@@ -482,6 +500,7 @@
                   src="assets/img/prewedding/1.jpg"
                   alt="Image 1"
                   class="gallery-img"
+                  loading="lazy"
                 />
               </a>
             </div>
@@ -497,6 +516,7 @@
                       src="assets/img/prewedding/6.jpg"
                       alt="Image 1"
                       class="gallery-img"
+                      loading="lazy"
                     />
                   </a>
                 </div>
@@ -510,6 +530,7 @@
                       src="assets/img/prewedding/2.jpg"
                       alt="Image 1"
                       class="gallery-img"
+                      loading="lazy"
                     />
                   </a>
                 </div>
@@ -523,6 +544,7 @@
                       src="assets/img/prewedding/3.jpg"
                       alt="Image 1"
                       class="gallery-img"
+                      loading="lazy"
                     />
                   </a>
                 </div>
@@ -536,6 +558,7 @@
                       src="assets/img/prewedding/4.jpg"
                       alt="Image 1"
                       class="gallery-img"
+                      loading="lazy"
                     />
                   </a>
                 </div>
@@ -547,18 +570,19 @@
         <section id="attendance">
           <section id="reservation" class="custom-container">
             <div class="bg-ornament">
-            <img src="assets/img/top.webp" class="overlay-top" alt="" />
-            <img
-              src="assets/img/pinggiran.webp"
-              class="overlay-middle"
-              alt=""
-            />
-            <div class="fl-rsv-1">
-              <img src="assets/img/reserv-bot.webp" alt="" />
+              <img src="assets/img/top.webp" class="overlay-top" alt="" loading="lazy" />
+              <img
+                src="assets/img/pinggiran.webp"
+                class="overlay-middle"
+                alt=""
+                loading="lazy"
+              />
+              <div class="fl-rsv-1">
+                <img src="assets/img/reserv-bot.webp" alt="" loading="lazy" />
+              </div>
+              <img src="assets/img/bot.webp" class="overlay-bottom" alt="" loading="lazy" />
+              <img src="assets/img/break1.webp" alt="" loading="lazy" />
             </div>
-            <img src="assets/img/bot.webp" class="overlay-bottom" alt="" />
-            <img src="assets/img/break1.webp" alt="" />
-          </div>
             <div
               class="reservation-container"
               data-aos="fade-up"
@@ -617,14 +641,15 @@
 
           <section id="comment" class="custom-container">
             <div class="bg-ornament">
-              <img src="assets/img/top.webp" class="overlay-top" alt="" />
+              <img src="assets/img/top.webp" class="overlay-top" alt="" loading="lazy" />
               <img
                 src="assets/img/pinggiran.webp"
                 class="overlay-middle"
                 alt=""
+                loading="lazy"
               />
-              <img src="assets/img/bot.webp" class="overlay-bottom" alt="" />
-              <img src="assets/img/break1.webp" alt="" />
+              <img src="assets/img/bot.webp" class="overlay-bottom" alt="" loading="lazy" />
+              <img src="assets/img/break1.webp" alt="" loading="lazy" />
             </div>
             <div
               class="comment-section-container"
@@ -736,6 +761,7 @@
                         src="assets/img/qr.png"
                         style="width: 91px"
                         alt="qr-bank"
+                        loading="lazy"
                       />
                     </div>
                     <div class="wg-divider mt-2 mb-2"></div>
@@ -840,6 +866,7 @@
               src="assets/img/welcome-bg.jpg"
               class="wedding-of-frame"
               alt=""
+              loading="lazy"
               data-aos="zoom-in"
               data-aos-duration="800"
               data-aos-delay="200"
@@ -946,6 +973,7 @@
                   src="assets/img/Water-Boiler-Fomac.webp"
                   class="card-img-top"
                   alt="image wg gift"
+                  loading="lazy"
                 />
                 <div class="card-body">
                   <p class="card-title text-bold text-white">
