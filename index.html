@@ -1,0 +1,1027 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Undangan 12</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/splide.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/loader.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="mfahmialif no-scroll">
+    <!-- Wedding Loader -->
+    <!-- <div id="loader">
+    <div class="heart-loader"></div>
+    <p id="progress-text">Preparing the big day... 0%</p>
+  </div> -->
+
+    <!-- <div class="snowfall-animation"></div> -->
+    <div class="qr-invitation" onclick="showQrInvitation()">
+      <div class="d-flex justify-content-center gap-2 align-items-center">
+        <svg
+          class="svg-inline--fa fa-qrcode"
+          width="1em"
+          height="1em"
+          aria-hidden="true"
+          focusable="false"
+          data-prefix="fas"
+          data-icon="qrcode"
+          role="img"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 448 512"
+          data-fa-i2svg=""
+        >
+          <path
+            fill="currentColor"
+            d="M0 80C0 53.5 21.5 32 48 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48L0 80zM64 96l0 64 64 0 0-64L64 96zM0 336c0-26.5 21.5-48 48-48l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96zm64 16l0 64 64 0 0-64-64 0zM304 32l96 0c26.5 0 48 21.5 48 48l0 96c0 26.5-21.5 48-48 48l-96 0c-26.5 0-48-21.5-48-48l0-96c0-26.5 21.5-48 48-48zm80 64l-64 0 0 64 64 0 0-64zM256 304c0-8.8 7.2-16 16-16l64 0c8.8 0 16 7.2 16 16s7.2 16 16 16l32 0c8.8 0 16-7.2 16-16s7.2-16 16-16s16 7.2 16 16l0 96c0 8.8-7.2 16-16 16l-64 0c-8.8 0-16-7.2-16-16s-7.2-16-16-16s-16 7.2-16 16l0 64c0 8.8-7.2 16-16 16l-32 0c-8.8 0-16-7.2-16-16l0-160zM368 480a16 16 0 1 1 0-32 16 16 0 1 1 0 32zm64 0a16 16 0 1 1 0-32 16 16 0 1 1 0 32z"
+          ></path>
+        </svg>
+        <p class="m-0">QR Invitation For</p>
+      </div>
+      <div class="text-secondary text-center">Shafa Dimas Saputra</div>
+      <div class="qr-image mt-1">
+        <img src="assets/img/qr.png" alt="qr-image" class="img-fluid" />
+      </div>
+    </div>
+
+    <section class="cover-large"></section>
+
+    <section class="main" id="main">
+      <section id="welcome" class="custom-container">
+        <div class="welcome-overlay"></div>
+        <div class="welcome-container">
+          <div class="custom-container">
+            <!-- <img src="assets/img/welcome-bg.jpg" class="wedding-of-frame-2" alt="" /> -->
+            <h2 class="header-2 font-body mt-3 text-light">#weddinglife</h2>
+            <h2
+              class="header-2 font-body text-light"
+              style="letter-spacing: 2px"
+            >
+              THE WEDDING OF
+            </h2>
+            <h1 class="font-heading text-light">Sulaiman & Safiyyah</h1>
+          </div>
+
+          <div class="custom-container guest-container">
+            <h2 class="header-3 font-body text-light">Kepada Yth.</h2>
+            <h1 class="header-3 font-body text-light">Fulan & Fulanah</h1>
+            <button
+              class="btn btn-invites mx-auto d-block mt-4"
+              style="z-index: 10 !important; position: relative"
+              onclick="openInvites()"
+            >
+              Buka Undangan
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section id="content-wedding">
+        <!-- <img src="assets/img/texture-bg.webp" class="bg-content-wedding" alt=""> -->
+        <section id="header" class="custom-container">
+          <video
+            class="opening-video"
+            muted
+            playsinline
+            disablePictureInPicture
+            controlsList="nodownload nofullscreen noremoteplayback"
+          >
+            <source src="assets/img/video/video_opening.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <div class="header-4 font-heading hidden-element mt-4 text-light">
+            UNDANGAN PERNIKAHAN
+          </div>
+          <div class="font-content-wedding-1 hidden-element">FULAN</div>
+          <div class="font-heading-latin-1 hidden-element text-light">and</div>
+          <div class="font-content-wedding-1 hidden-element">FULANAH</div>
+          <div class="font-heading-date hidden-element text-light">
+            20.04.25
+          </div>
+          <dotlottie-wc
+            class="hidden-element"
+            src="https://lottie.host/fefe90b3-0ad6-4f9c-a4b0-70155a2b3fad/x1ecHviCGq.lottie"
+            style="width: 50px; height: 50px"
+            autoplay
+            loop
+          ></dotlottie-wc>
+        </section>
+
+        <section id="wedding-of" class="custom-container">
+          <div class="fl-wo-1">
+            <img src="assets/img/lamp.webp" alt="" class="fl-goyang-top" />
+          </div>
+          <div class="bg-ornament">
+            <img src="assets/img/top.webp" class="overlay-top" alt="" />
+            <img
+              src="assets/img/pinggiran.webp"
+              class="overlay-middle"
+              alt=""
+            />
+            <img src="assets/img/bot.webp" class="overlay-bottom" alt="" />
+            <img src="assets/img/break1.webp" alt="" />
+          </div>
+          <div class="wedding-of-container" data-aos-duration="1000">
+            <h1
+              class="font-heading-2 mt-3"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              The Wedding Of
+            </h1>
+
+            <div
+              class="couple man mt-3"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              <img src="assets/img/man.webp" class="wedding-of-frame" alt="" />
+              <div class="couple-details mt-3">
+                <h1 class="font-heading-latin-3">Fulan</h1>
+                <p class="text-body-1">Fullname of Mr. Fulan</p>
+                <p class="text-body-4">The Son of Mr Fulan & Mrs. Ibu Fulan</p>
+                <div class="invites-icon">
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+
+            <h1 class="font-heading-latin-3" style="font-size: 7rem !important">
+              &
+            </h1>
+
+            <div
+              class="couple girl mt-5"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              <img src="assets/img/girl.webp" class="wedding-of-frame" alt="" />
+              <div class="couple-details mt-3">
+                <h1 class="font-heading-latin-3">Fulanah</h1>
+                <p class="text-body-1">Fullname of Mr. Fulanah</p>
+                <p class="text-body-4">
+                  The Son of Mr Fulanah & Mrs. Ibu Fulanah
+                </p>
+                <div class="invites-icon">
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="countdown" class="custom-container">
+          <div class="bg-ornament">
+            <img
+              src="assets/img/countdown-top.webp"
+              class="overlay-top"
+              alt=""
+            />
+            <img
+              src="assets/img/countdown-mid.webp"
+              class="overlay-middle"
+              alt=""
+            />
+            <img
+              src="assets/img/countdown-bot.webp"
+              class="overlay-bottom"
+              alt=""
+            />
+          </div>
+
+          <div class="fl-cd-1">
+            <img src="assets/img/countdown-in-top.webp" alt="" />
+          </div>
+          <div class="fl-cd-2">
+            <img src="assets/img/countdown-in-bot.webp" alt="" />
+          </div>
+          <div class="countdown-container" data-aos-duration="1000">
+            <img src="assets/img/countdown-in-mid.webp" alt="" class="cd-in-mid" />
+            <h1
+              class="font-heading-2"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              Save the Date
+            </h1>
+            <div
+              class="item-container mt-2"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              <div class="item text-center">
+                <span class="number">12</span>
+                <span class="desc">Jam</span>
+              </div>
+              <div class="item text-center">
+                <span class="number">12</span>
+                <span class="desc">Jam</span>
+              </div>
+              <div class="item text-center">
+                <span class="number">12</span>
+                <span class="desc">Jam</span>
+              </div>
+              <div class="item text-center">
+                <span class="number">12</span>
+                <span class="desc">Jam</span>
+              </div>
+            </div>
+
+            <button
+              class="btn btn-invites mt-4"
+              data-aos-duration="600"
+              data-aos-delay="400"
+            >
+              Add to Calendar
+              <i class="bi bi-calendar" style="margin-left: 4px"></i>
+            </button>
+          </div>
+
+          <!-- <button class="btn-invites mt-3">Add to Calendar</button> -->
+        </section>
+
+        <section id="wedding-day" class="custom-container">
+          <div class="bg-ornament">
+            <img
+              src="assets/img/acara-top.webp"
+              class="overlay-top"
+              alt=""
+            />
+            <img
+              src="assets/img/acara-mid.webp"
+              class="overlay-middle"
+              alt=""
+            />
+            <img
+              src="assets/img/acara-bot.webp"
+              class="overlay-bottom"
+              alt=""
+            />
+             <img src="assets/img/break1.webp" alt="" />
+          </div>
+          <div class="wd-container" data-aos="fade-up" data-aos-duration="1000">
+            <div class="custom-container">
+              <h1 class="font-heading-2">Akad</h1>
+              <div class="text-body-5">Saturday, 20 May 2022</div>
+              <div class="text-body-5 mt-2">13:30 - 16:00 WIB</div>
+              <div class="divider mt-3">
+                <i class="bi bi-building"></i>
+              </div>
+              <div class="text-body-1 mt-3">Bangil, Pasuruan</div>
+              <div class="text-body-6 mt-2">
+                Sudirman Central Business District 8, Senayan, Kec. Kby. Baru,
+                Daerah Khusus Ibukota Jakarta
+              </div>
+              <button class="btn-invites my-3">
+                <i class="bi bi-geo-alt"></i> View Maps
+              </button>
+            </div>
+            <br>
+            <div class="custom-container">
+              <h1 class="font-heading-2">Akad</h1>
+              <div class="text-body-5">Saturday, 20 May 2022</div>
+              <div class="text-body-5 mt-2">13:30 - 16:00 WIB</div>
+              <div class="divider mt-3">
+                <i class="bi bi-building"></i>
+              </div>
+              <div class="text-body-1 mt-3">Bangil, Pasuruan</div>
+              <div class="text-body-6 mt-2">
+                Sudirman Central Business District 8, Senayan, Kec. Kby. Baru,
+                Daerah Khusus Ibukota Jakarta
+              </div>
+              <button class="btn-invites my-3">
+                <i class="bi bi-geo-alt"></i> View Maps
+              </button>
+            </div>
+
+          </div>
+
+        </section>
+
+        <section
+          id="our-story"
+          class="d-flex justify-content-center flex-column align-items-center position-relative"
+        >
+          <h1 class="font-heading-2" data-aos="fade-up" data-aos-duration="800">
+            Our Story
+          </h1>
+          <br />
+          <div
+            class="splide our-story"
+            id="splide-our-story"
+            aria-label="Splide Basic HTML Example"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide our-story">
+                  <a
+                    href="assets/img/prewedding/1.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #1"
+                  >
+                    <img
+                      data-splide-lazy="assets/img/prewedding/1.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <div class="caption">
+                    <div class="title">Judul</div>
+                    <div class="body">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Adipisci quidem vel aliquid totam nostrum ratione ipsum
+                      perferendis. Sint numquam necessitatibus architecto
+                      voluptatibus! Laboriosam odio iste perferendis laudantium
+                      autem incidunt quia?
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide our-story">
+                  <a
+                    href="assets/img/prewedding/2.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #2"
+                  >
+                    <img
+                      data-splide-lazy="assets/img/prewedding/2.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <div class="caption">
+                    <div class="title">Judul</div>
+                    <div class="body">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Adipisci quidem vel aliquid totam nostrum ratione ipsum
+                      perferendis. Sint numquam necessitatibus architecto
+                      voluptatibus! Laboriosam odio iste perferendis laudantium
+                      autem incidunt quia?
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide our-story">
+                  <a
+                    href="assets/img/prewedding/3.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #3"
+                  >
+                    <img
+                      data-splide-lazy="assets/img/prewedding/3.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <div class="caption">
+                    <div class="title">Judul</div>
+                    <div class="body">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Adipisci quidem vel aliquid totam nostrum ratione ipsum
+                      perferendis. Sint numquam necessitatibus architecto
+                      voluptatibus! Laboriosam odio iste perferendis laudantium
+                      autem incidunt quia?
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide our-story">
+                  <a
+                    href="assets/img/prewedding/4.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #4"
+                  >
+                    <img
+                      data-splide-lazy="assets/img/prewedding/4.jpg"
+                      alt=""
+                    />
+                  </a>
+                  <div class="caption">
+                    <div class="title">Judul</div>
+                    <div class="body">
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                      Adipisci quidem vel aliquid totam nostrum ratione ipsum
+                      perferendis. Sint numquam necessitatibus architecto
+                      voluptatibus! Laboriosam odio iste perferendis laudantium
+                      autem incidunt quia?
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section
+          id="gallery"
+          class="d-flex justify-content-center flex-column align-items-center"
+        >
+          <h1 class="font-heading-2" data-aos="fade-up" data-aos-duration="800">
+            Gallery
+          </h1>
+          <br />
+
+          <section
+            id="video"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="200"
+          >
+            <br />
+            <div class="video">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/evjZQ-Fn_aQ?si=z-4S4cpvpN9iTQ6L"
+                title="YouTube video player"
+                frameborder="0"
+                allow="
+                  accelerometer;
+                  autoplay;
+                  clipboard-write;
+                  encrypted-media;
+                  gyroscope;
+                  picture-in-picture;
+                  web-share;
+                "
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen
+              >
+              </iframe>
+            </div>
+          </section>
+
+          <div
+            class="row g-2 m-0 mx-md-2 position-relative z-3"
+            data-aos="fade-up"
+            data-aos-duration="800"
+            data-aos-delay="300"
+          >
+            <div class="col-md-12 gallery-item">
+              <a
+                href="assets/img/prewedding/1.jpg"
+                data-fancybox="gallery"
+                data-caption="Caption #1"
+              >
+                <img
+                  src="assets/img/prewedding/1.jpg"
+                  alt="Image 1"
+                  class="gallery-img"
+                />
+              </a>
+            </div>
+            <div class="col-md-12 gallery-item">
+              <div class="row g-2">
+                <div class="col-8 gallery-item">
+                  <a
+                    href="assets/img/prewedding/6.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #1"
+                  >
+                    <img
+                      src="assets/img/prewedding/6.jpg"
+                      alt="Image 1"
+                      class="gallery-img"
+                    />
+                  </a>
+                </div>
+                <div class="col-4 gallery-item">
+                  <a
+                    href="assets/img/prewedding/2.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #1"
+                  >
+                    <img
+                      src="assets/img/prewedding/2.jpg"
+                      alt="Image 1"
+                      class="gallery-img"
+                    />
+                  </a>
+                </div>
+                <div class="col-4 gallery-item">
+                  <a
+                    href="assets/img/prewedding/3.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #1"
+                  >
+                    <img
+                      src="assets/img/prewedding/3.jpg"
+                      alt="Image 1"
+                      class="gallery-img"
+                    />
+                  </a>
+                </div>
+                <div class="col-8 gallery-item">
+                  <a
+                    href="assets/img/prewedding/4.jpg"
+                    data-fancybox="gallery"
+                    data-caption="Caption #1"
+                  >
+                    <img
+                      src="assets/img/prewedding/4.jpg"
+                      alt="Image 1"
+                      class="gallery-img"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="attendance">
+          <section id="reservation" class="custom-container">
+            <div class="bg-ornament">
+            <img src="assets/img/top.webp" class="overlay-top" alt="" />
+            <img
+              src="assets/img/pinggiran.webp"
+              class="overlay-middle"
+              alt=""
+            />
+            <div class="fl-rsv-1">
+              <img src="assets/img/reserv-bot.webp" alt="" />
+            </div>
+            <img src="assets/img/bot.webp" class="overlay-bottom" alt="" />
+            <img src="assets/img/break1.webp" alt="" />
+          </div>
+            <div
+              class="reservation-container"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h1
+                class="font-heading-2"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                Reservation
+              </h1>
+              <div
+                class="form-container"
+                style="z-index: 10"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div class="form-floating w-100">
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Name"
+                  />
+                  <label for="name">Name</label>
+                </div>
+
+                <div class="form-floating mt-1 w-100">
+                  <select
+                    class="form-select"
+                    id="status"
+                    name="status"
+                    aria-label="status"
+                  >
+                    <option selected>Apakah kamu akan hadir?</option>
+                    <option value="iya">Ya, aku akan hadir.</option>
+                    <option value="tidak">Tidak, saya tidak bisa hadir.</option>
+                  </select>
+                  <label for="status">Kehadiran</label>
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-invites w-100"
+                  style="z-index: 10"
+                >
+                  Send <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <section id="comment" class="custom-container">
+            <div class="bg-ornament">
+              <img src="assets/img/top.webp" class="overlay-top" alt="" />
+              <img
+                src="assets/img/pinggiran.webp"
+                class="overlay-middle"
+                alt=""
+              />
+              <img src="assets/img/bot.webp" class="overlay-bottom" alt="" />
+              <img src="assets/img/break1.webp" alt="" />
+            </div>
+            <div
+              class="comment-section-container"
+              data-aos="fade-up"
+              data-aos-duration="1000"
+            >
+              <h1
+                class="font-heading-2"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="200"
+              >
+                Comment
+              </h1>
+              <div
+                class="comment-wrapper"
+                data-aos="fade-up"
+                data-aos-duration="800"
+                data-aos-delay="300"
+              >
+                <div class="comment-container">
+                  <div class="comment-item">
+                    <div class="sender">Shafa</div>
+                    <div class="time">11 Feb 2025, 22:05</div>
+                    <div class="content">
+                      lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Doloremque, voluptas, quia, doloremque voluptatem,
+                      voluptate, quisquam, doloribus, asperiores, fugiat,
+                      laboriosam, quos
+                    </div>
+                  </div>
+                </div>
+                <div class="comment-container mt-3">
+                  <button type="button" class="btn btn-invites w-100">
+                    Show more comments <i class="bi bi-plus-circle"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+
+        <section id="wedding-gift" class="custom-container">
+          <div class="wg-container" data-aos="fade-up" data-aos-duration="1000">
+            <h1
+              class="font-heading-2"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            >
+              Wedding Gift
+            </h1>
+            <div class="text-body-4 mt-2" style="width: 85%">
+              Your blessing and coming to our wedding are enough for us.
+              However, if you want to give a gift we provide a Digital Envelope
+              to make it easier for you. Thank you
+            </div>
+            <div class="wg-divider mt-3"></div>
+            <div class="wg-form-wrapper mt-3">
+              <ul
+                class="nav nav-tabs wg-nav-tabs flex justify-content-center"
+                id="wg-nav-tab"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#bank"
+                    type="button"
+                    role="tab"
+                    aria-controls="home"
+                    aria-selected="true"
+                  >
+                    E-Angpao
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile"
+                    aria-selected="false"
+                  >
+                    Gift Registry
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="wg-tab">
+                <div
+                  class="tab-pane fade show active"
+                  id="bank"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                >
+                  <div class="reservation-status w-100">
+                    <div class="card-wg mt-3">
+                      <div>
+                        <p><b>BANK BCA</b></p>
+                        <p>Account Number</p>
+                        <p>1234567890</p>
+                      </div>
+                      <img
+                        src="assets/img/qr.png"
+                        style="width: 91px"
+                        alt="qr-bank"
+                      />
+                    </div>
+                    <div class="wg-divider mt-2 mb-2"></div>
+                  </div>
+
+                  <div class="form-bank">
+                    <div class="input-group">
+                      <span class="input-group-text wg-input-icon">
+                        <i class="bi bi-person"></i>
+                      </span>
+                      <input
+                        type="text"
+                        id="bank-name"
+                        name="bank-name"
+                        class="form-control wg-input"
+                        placeholder="Name"
+                      />
+                    </div>
+                    <div class="input-group mt-2">
+                      <span class="input-group-text wg-input-icon">
+                        <i class="bi bi-cash"></i>
+                      </span>
+                      <input
+                        type="text"
+                        id="bank-amounr"
+                        name="bank-amounr"
+                        class="form-control wg-input"
+                        placeholder="Jumlah Rp."
+                      />
+                    </div>
+                    <div class="input-group mt-2">
+                      <span class="input-group-text wg-input-icon">
+                        <i class="bi bi-envelope"></i>
+                      </span>
+                      <input
+                        type="email"
+                        id="bank-email"
+                        name="bank-email"
+                        class="form-control wg-input"
+                        placeholder="Email"
+                      />
+                    </div>
+                    <button
+                      type="submit"
+                      class="btn-invites mt-3 mx-auto d-block w-100"
+                    >
+                      Send <i class="bi bi-send"></i>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                >
+                  <p class="text-center p-3 text-body-4">
+                    Anda bisa memberikan hadiah melalui website ini. Klik
+                    Hadiahkan, setelah itu akan muncul pop up form, isi form
+                    data pengirim dan anda akan di email oleh sistem untuk
+                    detailnya. Biaya pengiriman akan dibebankan kepada tamu
+                  </p>
+                  <button
+                    type="button"
+                    class="btn btn-invites w-100"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modal-wg"
+                  >
+                    <i class="bi bi-gift-fill"></i> Open Gift
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="quote" class="custom-container">
+          <div
+            class="quote-section-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="quote-section-overlay"></div>
+            <div class="text-body-6" style="width: 85%">
+              "Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
+              pasangan-pasangan untukmu dari jenismu sendiri, agar kamu
+              cenderung dan merasa tenteram kepadanya, dan Dia menjadikan di
+              antaramu rasa kasih dan sayang."
+            </div>
+            <div class="text-body-5 mt-3">(QS. Ar-Rum: 21)</div>
+          </div>
+        </section>
+
+        <section id="thanks" class="custom-container">
+          <div
+            class="thanks-container"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div class="thanks-overlay"></div>
+            <img
+              src="assets/img/welcome-bg.jpg"
+              class="wedding-of-frame"
+              alt=""
+              data-aos="zoom-in"
+              data-aos-duration="800"
+              data-aos-delay="200"
+            />
+            <h2
+              class="font-heading-2 mt-5"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="300"
+            >
+              Terima Kasih
+            </h2>
+            <div class="text-body-6" style="width: 85%">
+              Terima kasih telah hadir di acara pernikahan kami.
+            </div>
+            <h1
+              class="font-heading-latin-3 mt-5"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="400"
+            >
+              Fulan
+            </h1>
+            <h1
+              class="font-heading-latin-3"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="500"
+            >
+              &
+            </h1>
+            <h1
+              class="font-heading-latin-3"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="600"
+            >
+              Fulanah
+            </h1>
+            <div
+              class="font-heading-date-2"
+              data-aos="fade-up"
+              data-aos-duration="800"
+              data-aos-delay="700"
+            >
+              20.04.25
+            </div>
+          </div>
+
+          <section id="footer-right" class="custom-container mt-5">
+            <div class="text-body-4 text-light font-bg">
+              Designed by mfahmialif
+            </div>
+            <div class="social-media my-2">
+              <a href="" class="invites-icon">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="" class="invites-icon">
+                <i class="bi bi-globe"></i>
+              </a>
+              <a href="" class="invites-icon">
+                <i class="bi bi-whatsapp"></i>
+              </a>
+            </div>
+            <div class="text-body-4 text-light font-bg">
+              © mfahmialif. All rights reserved.
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <section
+      class="music-outer aos-init aos-animate"
+      data-aos-duration="1000"
+      data-aos-delay="300"
+    >
+      <!-- <audio id="background-music" src="assets/music/music.mp3" autoplay loop></audio> -->
+      <!-- <audio id="background-music" src="assets/music/music.mp3"></audio> -->
+      <div class="music-box auto" id="music-box"></div>
+    </section>
+
+    <div
+      class="modal fade"
+      id="modal-wg"
+      tabindex="-1"
+      aria-labelledby="modal-wg"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #f3f1e9">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex justify-content-center flex-wrap gap-2">
+              <div class="card bg-wg">
+                <img
+                  src="assets/img/Water-Boiler-Fomac.webp"
+                  class="card-img-top"
+                  alt="image wg gift"
+                />
+                <div class="card-body">
+                  <p class="card-title text-bold text-white">
+                    Water Boiler Fomac
+                  </p>
+                  <p class="card-text text-white">Rp. 370.000</p>
+                  <a href="#" class="btn btn-invites w-100">Give as a give</a>
+                </div>
+              </div>
+              <div class="card bg-wg">
+                <img
+                  src="assets/img/Water-Boiler-Fomac.webp"
+                  class="card-img-top"
+                  alt="image wg gift"
+                />
+                <div class="card-body">
+                  <p class="card-title text-bold text-white">
+                    Water Boiler Fomac
+                  </p>
+                  <p class="card-text text-white">Rp. 370.000</p>
+                  <a href="#" class="btn btn-invites w-100">Give as a give</a>
+                </div>
+              </div>
+              <div class="card bg-wg">
+                <img
+                  src="assets/img/Water-Boiler-Fomac.webp"
+                  class="card-img-top"
+                  alt="image wg gift"
+                />
+                <div class="card-body">
+                  <p class="card-title text-bold text-white">
+                    Water Boiler Fomac
+                  </p>
+                  <p class="card-text text-white">Rp. 370.000</p>
+                  <a href="#" class="btn btn-invites w-100">Give as a give</a>
+                </div>
+              </div>
+              <div class="card bg-wg">
+                <img
+                  src="assets/img/Water-Boiler-Fomac.webp"
+                  class="card-img-top"
+                  alt="image wg gift"
+                />
+                <div class="card-body">
+                  <p class="card-title text-bold text-white">
+                    Water Boiler Fomac
+                  </p>
+                  <p class="card-text text-white">Rp. 370.000</p>
+                  <a href="#" class="btn btn-invites w-100">Give as a give</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/splide.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- <script src="assets/js/snow.js"></script> -->
+    <script
+      src="https://unpkg.com/@lottiefiles/dotlottie-wc@0.8.5/dist/dotlottie-wc.js"
+      type="module"
+    ></script>
+    <!-- <script src="assets/js/dotlottie-player.js"></script> -->
+    <!-- <script src="assets/js/loader.js"></script> -->
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
