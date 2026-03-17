@@ -83,14 +83,9 @@
   color: var(--wood-clr) !important;
 }
 
-.bg-btn-2 {
-  background: linear-gradient(200deg, #e2b566 0%, #c3c3c3 100%);
-}
-
 .btn-invites {
-  background: linear-gradient(200deg, #e2b566 0%, #545454 100%);
-  background-color: var(--button-background-primary);
-  /* border: 2px solid var(--button-background-primary); */
+  background: var(--secondary-clr);
+  border: 2px solid var(--secondary-clr);
   color: var(--button-text-primary);
   font-size: 16px;
   font-weight: 500;
@@ -1679,7 +1674,7 @@ body.mfahmialif {
 }
 
 #wg-nav-tab {
-  background-color: var(--button-background-primary);
+  background-color: var(--background-primary);
   border-radius: 50px;
   padding: 5px;
   overflow: hidden;
